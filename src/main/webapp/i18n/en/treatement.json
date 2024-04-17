@@ -1,0 +1,25 @@
+{
+  "backendApp": {
+    "treatement": {
+      "home": {
+        "title": "Treatements",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Treatement",
+        "createOrEditLabel": "Create or edit a Treatement",
+        "notFound": "No Treatements found"
+      },
+      "created": "A new Treatement is created with identifier {{ param }}",
+      "updated": "A Treatement is updated with identifier {{ param }}",
+      "deleted": "A Treatement is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Treatement {{ id }}?"
+      },
+      "detail": {
+        "title": "Treatement"
+      },
+      "id": "Id",
+      "name": "Name",
+      "description": "Description"
+    }
+  }
+}

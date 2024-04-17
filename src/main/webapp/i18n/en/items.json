@@ -1,0 +1,25 @@
+{
+  "backendApp": {
+    "items": {
+      "home": {
+        "title": "Items",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Items",
+        "createOrEditLabel": "Create or edit a Items",
+        "notFound": "No Items found"
+      },
+      "created": "A new Items is created with identifier {{ param }}",
+      "updated": "A Items is updated with identifier {{ param }}",
+      "deleted": "A Items is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Items {{ id }}?"
+      },
+      "detail": {
+        "title": "Items"
+      },
+      "id": "Id",
+      "name": "Name",
+      "description": "Description"
+    }
+  }
+}

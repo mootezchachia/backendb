@@ -1,0 +1,45 @@
+
+application {
+  config {
+    baseName Backend
+    applicationType monolith
+    packageName com.myapp
+    authenticationType jwt
+    prodDatabaseType postgresql
+    clientFramework react
+  }
+  entities *
+}
+
+entity User {
+id Integer
+firstName String
+lastName String
+dob String
+metadata String
+role Role
+}
+
+enum Role {
+DOCTOR, PATIENT, ADMIN, MANAGER
+}
+
+entity Items {
+id Integer
+name String
+description String
+}
+
+entity Treatement {
+id Integer
+name String
+description String
+
+}
+
+entity Appointment {
+id Integer
+startTime Instant
+period Duration
+
+}

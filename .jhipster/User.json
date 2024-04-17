@@ -1,0 +1,37 @@
+{
+  "annotations": {
+    "changelogDate": "20240312210451"
+  },
+  "applications": ["Backend"],
+  "entityTableName": "jhi_user",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "firstName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "lastName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dob",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "metadata",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "role",
+      "fieldType": "Role",
+      "fieldValues": "DOCTOR,PATIENT,ADMIN,MANAGER"
+    }
+  ],
+  "name": "User",
+  "relationships": [],
+  "searchEngine": "no"
+}

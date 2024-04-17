@@ -1,0 +1,20 @@
+{
+  "generator-jhipster": {
+    "applicationIndex": 0,
+    "applicationType": "monolith",
+    "authenticationType": "jwt",
+    "baseName": "Backend",
+    "clientFramework": "react",
+    "creationTimestamp": 1710336846988,
+    "devServerPort": 9060,
+    "entities": ["User", "Items", "Treatement", "Appointment"],
+    "jhipsterVersion": "8.1.0",
+    "jwtSecretKey": "MDdjMjFhMGVmNTg3MjQ1MzhjNmMxNWRmOGRmOTNhNzgxNWY5YWMzMzRlYjg5NjNkZjI2Yjk4YTc2ZDk5ODgwODg1MWE4ZDA2ZTMzZTIzNTYwMjcxZWY0YTc4NDgzZGNkNmQ5NmIxM2M3YTM5YWY2ZTcyNTM0NjhhNmY4OWM2M2E=",
+    "languages": ["en"],
+    "lastLiquibaseTimestamp": 1710277671000,
+    "nativeLanguage": "en",
+    "packageFolder": "com/myapp",
+    "packageName": "com.myapp",
+    "prodDatabaseType": "postgresql"
+  }
+}
